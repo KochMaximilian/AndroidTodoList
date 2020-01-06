@@ -161,8 +161,9 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewAdapt
             todo.category = "Study";
 
             todoArrayList.add(todo);
-            insertList(todoArrayList);
+
         }
+        insertList(todoArrayList);
     }
 
     @Override
