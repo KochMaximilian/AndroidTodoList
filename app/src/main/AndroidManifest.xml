@@ -18,7 +18,7 @@
         </activity>
         <activity
             android:name="com.example.androidtodolistapp.TodoNoteActivity"
-            android:label="Add new note"
+            android:label="Note"
             android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
     </application>
 

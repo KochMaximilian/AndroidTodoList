@@ -156,8 +156,8 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewAdapt
         for (int i = 1; i <= 1000; i++) {
             count++;
             Todo todo = new Todo();
-            todo.name = "To-Do " + count;
-            todo.description = "Using a RecyclerView to show the data.";
+            todo.name = "Note " + count;
+            todo.description = "Description: ";
             todo.category = "Study";
 
             todoArrayList.add(todo);
