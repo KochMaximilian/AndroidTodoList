@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewAdapt
     }
 
     private void buildDummyTodos() {
-        for (int i = 1; i <= 1000; i++) {
+        for (int i = 1; i <= 5000; i++) {
             count++;
             Todo todo = new Todo();
             todo.name = "Note " + count;
